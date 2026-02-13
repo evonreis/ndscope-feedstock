@@ -52,6 +52,7 @@ tests:
         - pytest
         - pytest-console-scripts
         - python ${{ python_min }}
+        - setuptools<82
           # imports:
           #   - ndscope
     script:
